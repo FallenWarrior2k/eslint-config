@@ -1,0 +1,33 @@
+{
+  "name": "@fallenwarrior2k/eslint-config",
+  "version": "0.1.0",
+  "description": "My usual ESLint settings factored out for easier reuse.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FallenWarrior2k/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "FallenWarrior2k",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FallenWarrior2k/eslint-config/issues"
+  },
+  "homepage": "https://github.com/FallenWarrior2k/eslint-config#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "eslint": ">=6.8.0",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "eslint-plugin-unicorn": "^18.0.1"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^2.26.0",
+    "eslint-config-prettier": "^6.10.1"
+  }
+}
