@@ -3,6 +3,7 @@ module.exports = {
         "@fallenwarrior2k/eslint-config/index",
         "plugin:react/recommended",
         "plugin:react-hooks/recommended",
+        "plugin:jsx-a11y/strict",
         "prettier/react"
     ],
     parserOptions: {
