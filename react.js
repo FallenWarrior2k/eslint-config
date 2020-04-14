@@ -11,6 +11,17 @@ module.exports = {
             jsx: true
         }
     },
+    rules: {
+        "unicorn/prevent-abbreviations": [
+            "error",
+            {
+                replacements: {
+                    prop: false,
+                    props: false
+                }
+            }
+        ]
+    },
     settings: {
         react: {
             version: "detect"
